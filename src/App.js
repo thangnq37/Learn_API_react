@@ -22,7 +22,6 @@ function App() {
 
 function _showContentMenus(routes){
     let result = [];
-    console.log(routes);
     if(routes.length > 0){
         result = routes.map((value,index) =>{
             return (
