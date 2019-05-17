@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "iphone 10",
+      "price": "300",
+      "image": "123213.123213",
+      "status": "true",
+      "id": 3
+    },
+    {
+      "name": "iphone 11",
+      "price": "700",
+      "image": "32423423",
+      "status": "true",
+      "id": 4
+    },
+    {
+      "name": "Xiaomi XRs ",
+      "price": "600",
+      "status": true,
+      "id": 6
+    },
+    {
+      "name": "Xiaomi XRss",
+      "price": "700",
+      "status": false,
+      "id": 7
+    }
+  ]
+}
