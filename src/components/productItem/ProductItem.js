@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ProductItem(props) {
-  var {product, index} = props;
+  var {product, index, onDelete} = props;
   return (
     <tr>
       <td>{index + 1}</td>
@@ -13,11 +13,13 @@ function ProductItem(props) {
       </td>
       <td>
           <button type="button" className="btn btn-warning">Sửa</button>
-          <button type="button" className="btn btn-danger">Xóa</button>
+          <button type="button" onClick={()=>onDelete(product.id)} className="btn btn-danger">Xóa</button>
       </td>
     </tr>
   );
 }
+
+
 
 function _showStatusProduct(status){
   var nameState = status?'Còn hàng': 'Hết hàng';
